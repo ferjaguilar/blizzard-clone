@@ -1,10 +1,11 @@
+import Navbar from './components/Navbar/Navbar';
 import './sass/main.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="title">Hi from React!</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
